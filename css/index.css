@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3f3f3;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+li, a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  /*Hero_1 Section ENDS Here*/
+}
+header img {
+  width: 5rem;
+  height: 4rem;
+  margin-left: 4rem;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  margin-left: 50rem;
+  margin-top: 0.5rem;
+}
+header nav ul li {
+  margin: 10px 10px;
+  list-style-type: none;
+}
+header nav ul li a {
+  font-size: 1.2rem;
+}
+header .hero_1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 5rem;
+}
+header .hero_1 img {
+  width: auto;
+  height: 20rem;
+}
+header .hero_1 .sec2 {
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
+header .hero_1 .sec2 .intro {
+  font-size: 1.75rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header .hero_1 .sec2 .designation {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header .hero_1 .sec2 .description {
+  font-size: 1.25rem;
+  font-family: "Karla", sans-serif;
+  margin-top: 1rem;
+}
+header .hero_2 {
+  width: 100%;
+  height: auto;
+}
+header .hero_2 .emptybox {
+  background-color: gray;
+  width: 70%;
+  height: 30rem;
+}/*# sourceMappingURL=index.css.map */
