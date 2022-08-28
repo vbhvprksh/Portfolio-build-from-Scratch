@@ -1,15 +1,27 @@
+$box-bg-color: #140f02;
+$body-bg-color: #000000;
+$font-color: #f3f3f3;
+$hover-color: #37ad6d;
+
+
+
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    background-color: #f3f3f3;
+
 }
 body{
     overflow-x: hidden;
+    background-color: $body-bg-color!important;
+    color: $font-color!important;
+
 }
 li,a{
     text-decoration: none;
-    color: black;
+    color: $body-bg-color;
 }
 header{
     width: 100%;
@@ -17,19 +29,21 @@ header{
     img{
         width: 5rem;
         height: 4rem;
-        margin-left: 4rem;
+        margin-left: 7rem;
+        margin-top: 0.5rem;
     }
     nav{
         display: flex;
         ul{
             display: flex;
-            margin-left: 50rem;
+            margin-left: 44rem;
             margin-top: 0.5rem;
             li{
                 margin: 10px 10px;
                 list-style-type: none;
                 a{
                     font-size: 1.20rem;
+                    color: $font-color;
                 }
             }
         }
@@ -71,7 +85,171 @@ header{
         .emptybox{
             background-color: gray;
             width: 70%;
-            height: 30rem;
+            height: 45rem;
+        }
+        .box{
+            width: 50rem;
+            height: 15rem;
+            display: flex;
+            margin-top: -40rem;
+            margin-left: 18rem;
+            background-color: #140f02;
+            .box_1{
+                margin-top: 2.5rem;
+                margin-left:5rem;
+                width: 10rem;
+                height:10rem;
+                .tagline{
+                    font-size: 1.25rem;
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+                .description{
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                    font-family: 'Roboto Condensed', sans-serif;  
+                    text-align: auto; 
+                }   
+            }
+            .box_2{
+                margin-top: 2.5rem;
+                margin-left:5rem;
+                width: 10rem;
+                height:10rem;
+                .tagline{
+                    font-size: 1.25rem;
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+                .description{
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                    font-family: 'Roboto Condensed', sans-serif;  
+                    text-align: auto; 
+                }   
+            }
+            .box_3{
+                margin-top: 2.5rem;
+                margin-left:5rem;
+                width: 10rem;
+                height:10rem;
+                .tagline{
+                    font-size: 1.25rem;
+                    font-family: 'Roboto Condensed', sans-serif;
+                }
+                .description{
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                    font-family: 'Roboto Condensed', sans-serif;  
+                    text-align: auto; 
+                }   
+            }
+        }
+        
+
+        .col_exp{
+            width: 50rem;
+            height: 15rem;
+            display: flex;
+            margin-top: 5rem;
+            margin-left: 18rem;
+            .count{
+                font-size: 1.2rem;
+                margin-left: 2rem;
+                margin-top: 5rem;
+                .year{
+                    font-size: 3.5rem;
+                    margin-left: 2.5rem;
+                    color: $box-bg-color!important;
+                }
+                color: $box-bg-color!important;
+            }
+            .boxes{
+                display: inline;
+                width: 30rem;
+                height: 20rem;
+                .project_1{
+                    display: flex;
+                    margin-left: 4rem;
+                    .pro_box1{
+                        .centre{
+                            font-size: 2rem;
+                            margin-top: 2rem;
+                        }
+                        font-size: 1.5rem;
+                        margin: 0.25rem;
+                        background-color: $box-bg-color;
+                        width: 8rem;
+                        height: 8rem;
+                        text-align: center;
+                    }
+                    .pro_box2{
+                        .centre{
+                            font-size: 2rem;
+                            margin-top: 2rem;
+                        }
+                        font-size: 1.5rem;
+                        margin: 0.25rem;
+                        background-color: $box-bg-color;
+                        width: 8rem;
+                        height: 8rem;
+                        text-align: center;
+                    }
+                }
+                .project_2{
+                    display: flex;
+                    margin-left: 4rem;
+                    .pro_box3{
+                        .centre{
+                            font-size: 2rem;
+                            margin-top: 2rem;
+                        }
+                        font-size: 1.5rem;
+                        margin: 0.25rem;
+                        background-color: $box-bg-color;
+                        width: 8rem;
+                        height: 8rem;
+                        text-align: center;
+                    }
+                    .pro_box4{
+                        .centre{
+                            font-size: 2rem;
+                            margin-top: 2rem;
+                        }
+                        font-size: 1.5rem;
+                        background-color: $box-bg-color;
+                        width: 8rem;
+                        height: 8rem;
+                        margin: 0.25rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#section2{
+    margin-top: 10rem;
+    .page_bar{
+        width: 60%;
+        margin-left: 20%;
+        background-color: #37ad6d;
+        display: flex;
+        .title{
+            font-family: 'Comfortaa', cursive;
+            font-size: 1.95rem;
+            width: 25rem;
+            margin: 1rem;
+            .description{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.5rem;
+            }
+        }
+        .btn{
+            height: 3rem;
+            width:8rem;
+            font-size: 1.25rem;
+            margin: 2rem;
+            margin-left: 8rem;
         }
     }
 }
