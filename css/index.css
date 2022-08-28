@@ -215,14 +215,15 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   margin-top: 2rem;
 }
 
+/*First Header section Ends here*/
 #section2 {
   margin-top: 10rem;
 }
 #section2 .page_bar {
   width: 60%;
   margin-left: 20%;
-  background-color: #37ad6d;
   display: flex;
+  background-color: #140f02;
 }
 #section2 .page_bar .title {
   font-family: "Comfortaa", cursive;
@@ -240,4 +241,106 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   font-size: 1.25rem;
   margin: 2rem;
   margin-left: 8rem;
+}
+#section2 .major_box {
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  height: 20rem;
+  flex-direction: downwards;
+  background-color: #140f02;
+}
+#section2 .major_box .line_1 {
+  display: flex;
+  margin-left: 2rem;
+}
+#section2 .major_box .line_1 .inline_box_1 {
+  width: 20rem;
+  margin-left: 1rem;
+  height: 15rem;
+  text-align: center;
+  background-color: gray;
+}
+#section2 .major_box .line_1 .inline_box_1 img {
+  width: 18rem;
+  height: 10rem;
+  margin-top: 3rem;
+  margin-left: -0.2rem;
+}
+#section2 .major_box .line_1 .inline_box_1 .title {
+  font-size: 1.5rem;
+  color: #f3f3f3;
+  margin-left: -14rem;
+  margin-top: 2rem;
+  color: #f3f3f3;
+}
+#section2 .major_box .line_1 .inline_box_1 .description {
+  font-size: 1rem;
+  margin-left: -11.5rem;
+}
+#section2 .major_box .line_1 .inline_box_2 {
+  width: 20rem;
+  margin-left: 1rem;
+  height: 15rem;
+  margin-left: 2rem;
+  text-align: center;
+  background-color: gray;
+}
+#section2 .major_box .line_1 .inline_box_2 img {
+  width: 18rem;
+  height: 10rem;
+  margin-top: 3rem;
+  margin-left: -0.65rem;
+  margin-left: -0.2rem;
+}
+#section2 .major_box .line_1 .inline_box_2 .title {
+  font-size: 1.5rem;
+  color: #f3f3f3;
+  margin-left: -14rem;
+  margin-top: 2rem;
+  color: #f3f3f3;
+}
+#section2 .major_box .line_1 .inline_box_2 .description {
+  font-size: 1rem;
+  margin-left: -11.5rem;
+}
+
+/*Second Header section Ends here*/
+footer {
+  margin-top: 10rem;
+}
+footer .nav {
+  background-color: #140f02;
+  display: flex;
+  border-radius: 1rem;
+}
+footer .nav ul {
+  display: flex;
+  margin-left: 38%;
+}
+footer .nav ul li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+footer .nav ul li a {
+  color: #f3f3f3;
+  font-size: 1.2rem;
+}
+footer .social {
+  display: flex;
+  font-size: 1.2rem;
+  color: #000;
+  background-color: #37ad6d;
+  height: 3rem;
+}
+footer .social ul {
+  display: flex;
+  margin-left: 40%;
+}
+footer .social ul li {
+  padding-left: 1rem;
+  list-style-type: none;
+}
+footer .social ul li a {
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

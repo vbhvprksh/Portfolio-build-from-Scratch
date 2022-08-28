@@ -226,14 +226,14 @@ header{
         }
     }
 }
-
+/*First Header section Ends here*/
 #section2{
     margin-top: 10rem;
     .page_bar{
         width: 60%;
         margin-left: 20%;
-        background-color: #37ad6d;
         display: flex;
+        background-color: $box-bg-color;
         .title{
             font-family: 'Comfortaa', cursive;
             font-size: 1.95rem;
@@ -250,6 +250,110 @@ header{
             font-size: 1.25rem;
             margin: 2rem;
             margin-left: 8rem;
+        }
+    }
+    .major_box{
+        width: 60%;
+        margin-left: 20%;
+        display: flex;
+        height: 20rem;
+        flex-direction: downwards;
+        background-color: $box-bg-color;
+        .line_1{
+            display: flex;
+            margin-left: 2rem;
+            .inline_box_1{
+                width: 20rem;
+                margin-left: 1rem;
+                height: 15rem;
+                text-align: center;
+                background-color: gray;
+                img{
+                    width: 18rem;
+                    height: 10rem;
+                    margin-top: 3rem;
+                    margin-left: -0.2rem;
+                }
+                .title{
+                    font-size: 1.5rem;
+                    color: $font-color;
+                    margin-left:-14rem;
+                    margin-top: 2rem;
+                    color: $font-color;
+                }
+                .description{
+                    font-size: 1rem;
+                    margin-left:-11.5rem;
+                }
+            }
+            .inline_box_2{
+                width: 20rem;
+                margin-left: 1rem;
+                height: 15rem;
+                margin-left: 2rem;
+                text-align: center;
+                background-color: gray;
+                img{
+                    width: 18rem;
+                    height: 10rem;
+                    margin-top: 3rem;
+                    margin-left: -0.65rem;
+                    margin-left: -0.2rem;
+                }
+                .title{
+                    font-size: 1.5rem;
+                    color: $font-color;
+                    margin-left:-14rem;
+                    margin-top: 2rem;
+                    color: $font-color;
+                }
+                .description{
+                    font-size: 1rem;
+                    margin-left:-11.5rem;
+                }
+            }
+        }
+    }
+    
+}
+
+/*Second Header section Ends here*/
+
+footer{
+    margin-top: 10rem;
+    .nav{
+        background-color: $box-bg-color;
+        display: flex;
+        border-radius: 1rem;
+        ul{
+            display: flex;
+            margin-left: 38%;
+            li{
+                list-style-type: none;
+                padding-left: 10px;
+                a{
+                    color: $font-color;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .social{
+        display: flex;
+        font-size: 1.2rem;
+        color: #000;
+        background-color: #37ad6d;
+        height: 3rem;
+        ul{
+            display: flex;
+            margin-left: 40%;
+            li{
+                padding-left: 1rem;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                }
+            }
         }
     }
 }
