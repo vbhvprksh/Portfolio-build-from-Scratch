@@ -6,13 +6,12 @@
 
 body {
   overflow-x: hidden;
-  background-color: #000000 !important;
-  color: #f3f3f3 !important;
+  background-color: #fff;
+  color: #000000;
 }
 
 li, a {
   text-decoration: none;
-  color: #000000;
 }
 
 header {
@@ -40,7 +39,7 @@ header nav ul li {
 }
 header nav ul li a {
   font-size: 1.2rem;
-  color: #f3f3f3;
+  color: #000000;
 }
 header .hero_1 {
   width: 100%;
@@ -85,7 +84,8 @@ header .hero_2 .box {
   display: flex;
   margin-top: -40rem;
   margin-left: 18rem;
-  background-color: #140f02;
+  background-color: #fff;
+  border: solid 2px #000;
 }
 header .hero_2 .box .box_1 {
   margin-top: 2.5rem;
@@ -146,12 +146,12 @@ header .hero_2 .col_exp .count {
   font-size: 1.2rem;
   margin-left: 2rem;
   margin-top: 5rem;
-  color: #140f02 !important;
+  color: #f3f3f3;
 }
 header .hero_2 .col_exp .count .year {
   font-size: 3.5rem;
   margin-left: 2.5rem;
-  color: #140f02 !important;
+  color: #f3f3f3;
 }
 header .hero_2 .col_exp .boxes {
   display: inline;
@@ -165,7 +165,7 @@ header .hero_2 .col_exp .boxes .project_1 {
 header .hero_2 .col_exp .boxes .project_1 .pro_box1 {
   font-size: 1.5rem;
   margin: 0.25rem;
-  background-color: #140f02;
+  background-color: #f3f3f3;
   width: 8rem;
   height: 8rem;
   text-align: center;
@@ -177,7 +177,7 @@ header .hero_2 .col_exp .boxes .project_1 .pro_box1 .centre {
 header .hero_2 .col_exp .boxes .project_1 .pro_box2 {
   font-size: 1.5rem;
   margin: 0.25rem;
-  background-color: #140f02;
+  background-color: #f3f3f3;
   width: 8rem;
   height: 8rem;
   text-align: center;
@@ -193,7 +193,7 @@ header .hero_2 .col_exp .boxes .project_2 {
 header .hero_2 .col_exp .boxes .project_2 .pro_box3 {
   font-size: 1.5rem;
   margin: 0.25rem;
-  background-color: #140f02;
+  background-color: #f3f3f3;
   width: 8rem;
   height: 8rem;
   text-align: center;
@@ -204,7 +204,7 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box3 .centre {
 }
 header .hero_2 .col_exp .boxes .project_2 .pro_box4 {
   font-size: 1.5rem;
-  background-color: #140f02;
+  background-color: #f3f3f3;
   width: 8rem;
   height: 8rem;
   margin: 0.25rem;
@@ -223,10 +223,10 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   width: 60%;
   margin-left: 20%;
   display: flex;
-  background-color: #140f02;
+  background-color: gray;
 }
 #section2 .page_bar .title {
-  font-family: "Comfortaa", cursive;
+  font-family: "Oswald", sans-serif;
   font-size: 1.95rem;
   width: 25rem;
   margin: 1rem;
@@ -248,7 +248,7 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   display: flex;
   height: 20rem;
   flex-direction: downwards;
-  background-color: #140f02;
+  background-color: gray;
 }
 #section2 .major_box .line_1 {
   display: flex;
@@ -259,7 +259,7 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   margin-left: 1rem;
   height: 15rem;
   text-align: center;
-  background-color: gray;
+  background-color: #140f02;
 }
 #section2 .major_box .line_1 .inline_box_1 img {
   width: 18rem;
@@ -284,7 +284,7 @@ header .hero_2 .col_exp .boxes .project_2 .pro_box4 .centre {
   height: 15rem;
   margin-left: 2rem;
   text-align: center;
-  background-color: gray;
+  background-color: #140f02;
 }
 #section2 .major_box .line_1 .inline_box_2 img {
   width: 18rem;
@@ -332,6 +332,7 @@ footer .social {
   color: #000;
   background-color: #37ad6d;
   height: 3rem;
+  border-radius: 1rem;
 }
 footer .social ul {
   display: flex;
@@ -343,4 +344,79 @@ footer .social ul li {
 }
 footer .social ul li a {
   text-decoration: none;
+}
+
+/*Footer section Ends here*/
+/*Media  Query BEGINS here*/
+@media screen and (max-width: 700px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: #000;
+    color: #000000;
+  }
+}
+@media (max-width: 700px) {
+  header {
+    width: 100%;
+    height: auto;
+  }
+  header img {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 7rem;
+    margin-top: 0.5rem;
+  }
+  header nav {
+    display: block;
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    margin-left: 44rem;
+    margin-top: 0.5rem;
+  }
+  header nav ul li {
+    margin: 10px 10px;
+    list-style-type: none;
+  }
+  header nav ul li a {
+    font-size: 1.2rem;
+    color: #000000;
+  }
+  header .hero_1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 5rem;
+  }
+  header .hero_1 img {
+    width: 20em;
+    height: 20rem;
+    margin-left: 0.5rem;
+  }
+  header .hero_1 .sec2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  header .hero_1 .sec2 .intro {
+    font-size: 1.75rem;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 10px;
+  }
+  header .hero_1 .sec2 .designation {
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    margin-top: 0.3rem;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  header .hero_1 .sec2 .description {
+    font-size: 1.25rem;
+    font-family: "Karla", sans-serif;
+    margin-top: 1rem;
+  }
 }/*# sourceMappingURL=index.css.map */

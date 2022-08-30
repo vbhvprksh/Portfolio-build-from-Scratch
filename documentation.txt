@@ -1,0 +1,18 @@
+First user Basic HTML and CSS and learnt the basic Js
+
+Created a webpage in specific format for desktop based so that we can convert it into the responsive one.
+
+Now starting to make the resonsive web app.
+
+1. Add these in Head tags 
+
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+--Add These as your media queries -
+@media (max-width:) {
+    body{
+        position: relative;
+    }
+}
